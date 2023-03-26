@@ -70,7 +70,7 @@ function toNumber(queryParam: string | null, min = 1, max = 5) {
 }
 
 /**
- * Following is the data model definition for the employees collection
+ * Following is the corresponding data model definition for the employees collection
  * 
 
 @TigrisCollection("employees")
