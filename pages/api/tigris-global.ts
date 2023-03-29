@@ -19,6 +19,7 @@ export default async function api(req: Request) {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
+        accept: 'application/json',
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify({
